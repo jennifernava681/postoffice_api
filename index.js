@@ -2,7 +2,6 @@ const http = require('http');
 const mysql = require('mysql2');
 const dotenv = require('dotenv');
 const fs = require('fs');
-
 // Load environment variables from the .env file
 dotenv.config();
 
