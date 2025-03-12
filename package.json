@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "test": "echo \"No test defined\""
+=======
+    
+>>>>>>> 478e95499163a37a633416ae0924bd6ed028c624
   },
   "keywords": [],
   "author": "",
@@ -12,6 +16,9 @@
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^16.4.7",
-    "mysql2": "^3.13.0"
+    "mysql2": "^3.13.0",
+    "next": "^15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
