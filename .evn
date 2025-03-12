@@ -1,0 +1,4 @@
+MYSQL_HOST=postoffice.mysql.database.azure.com
+MYSQL_USER=team11
+MYSQL_PASSWORD=123456789.c
+MYSQL_DATABASE=mydb 
