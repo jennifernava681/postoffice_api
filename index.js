@@ -8,10 +8,10 @@ dotenv.config();
 
 // Create a connection pool to the MySQL database
 const pool = mysql.createPool({
-    host: process.env.MYSQL_HOST,
-    user: process.env.MYSQL_USER,
-    password: process.env.MYSQL_PASSWORD,
-    database: process.env.MYSQL_DATABASE,
+    host: process.env.DBHOST,
+    user: process.env.DBUSER,
+    password: process.env.DBPASS,
+    database: process.env.DBNAME,
     ssl: {
       ca: fs.readFileSync('./DigiCertGlobalRootCA.crt.pem')
     }
